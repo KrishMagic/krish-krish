@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Kaushan+Script&display=swap');
+#heading
+{
+    text-align: center;
+    font-family: serif;
+    font-weight: 100;
+    margin-top: -110px;
+}
+#head
+{
+    margin-top: 0px;
+}
+#firstlogo
+{
+    margin-left: 100px;
+    margin-top: -20px;
+    display: inline-block;
+}
+#secondlogo
+{
+    margin-left: 950px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+#mapimage
+{
+    margin-top: -3.9px;
+}
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+}
+#headimages
+{
+    margin-top: 10px;
+}
+#letterimage
+{
+    font-size: 25px;
+    margin-top: -365px;
+    margin-left: 1200px;
+    color: #693636;
+}
+#letterimage1
+{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 1230px;
+    color: #693636;
+}
+#letterimage2
+{
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 178px;
+    margin-left: 112px;
+    color: #000000;
+}
+#letterimage3
+{
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 18px;
+    margin-left: 112px;
+    color: #000000;
+}
+#letterimage4
+{
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: -42px;
+    margin-left: 230px;
+    color: #000000;
+}
+#letterimage5
+{
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 18px;
+    margin-left: 230px;
+    color: #000000;
+}
+#victoria
+{
+    margin-left: 500px;
+    margin-top: 100px;
+    opacity: 0.2;
+}
+.first
+{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+}
+.slider
+{
+    margin-top: 150px;
+    margin-bottom: 200px;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.slide-track
+{
+    height: 650px;
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 50s linear infinite;
+}
+@keyframes scroll
+{
+    0%
+    {
+        transform: translate(0);
+    }
+    100%
+    {
+        transform: translate(calc(-250px * 32));
+    }
+}
+.image
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+.image img
+{
+    transition: transform 0.6s;
+    border-radius: 15px;
+}
+.image :hover
+{
+    transform: scale(1.07);
+    border-radius: 15px;
+}
+.bottom-left1
+{
+    position: absolute;
+    bottom: 120px;
+    left: 130px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left2
+{
+    position: absolute;
+    bottom: 120px;
+    left: 80px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left3
+{
+    position: absolute;
+    bottom: 120px;
+    left: 130px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left4
+{
+    position: absolute;
+    bottom: 120px;
+    left:  90px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left5
+{
+    position: absolute;
+    bottom: 120px;
+    left: 110px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left6
+{
+    position: absolute;
+    bottom: 120px;
+    left: 110px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left7
+{
+    position: absolute;
+    bottom: 120px;
+    left: 120px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left8
+{
+    position: absolute;
+    bottom: 120px;
+    left: 70px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left9
+{
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left10
+{
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left11
+{
+    position: absolute;
+    bottom: 120px;
+    left: 130px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left12
+{
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+    color: white;
+    font-size: 20px;
+}
+#explorebengal
+{
+    font-family: 'Kablammo';
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -100px;
+    margin-bottom: -170px;
+}
+#second
+{
+    margin-top: -100px;
+}
+#topdestination
+{
+    font-family: 'Kablammo';
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.row
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+.column
+{
+    overflow: hidden;
+    position: relative;
+    border-radius: 5%;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.column img
+{
+    padding: 10px;
+    transition: all 0.3s linear;
+    border-radius: 8%;
+}
+.column :hover
+{
+    transform: scale(1.2);
+}
+#dds
+{
+    margin-top: -340px;
+}
+#pkb
+{
+    margin-top: -340px;
+}
+#backgroundimg2
+{
+    margin-top: -300px;
+    margin-left: 500px;
+    margin-bottom: -80px;
+    opacity: 0.2;
+}
+#lastlogo
+{
+    margin-top: -350px;
+    margin-bottom: 350px;
+    margin-left: 90px;
+    z-index: 0;
+}
+#foot
+{
+    z-index: 1;
+    margin-top: -100px;
+    margin-bottom: -290px;
+}
+#onlinebooking
+{
+    color: rgb(250, 250, 250);
+    margin-left: 1220px;
+    margin-top: -260px;
+    font-size: 20px;
+}
+#gallary
+{
+    color: rgb(250, 250, 250);
+    margin-left: 1220px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#legendsofbengal
+{
+    color: rgb(250, 250, 250);
+    margin-left: 1220px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+#contactus
+{
+    color: rgb(250, 250, 250);
+    margin-left: 1220px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#mountain
+{  
+    margin-left: 180px;
+    margin-top: -250px;
+    margin-bottom: -400px;
+    opacity: 0.2;
+}
+#festival
+{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-family: 'Kablammo';
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.third
+{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+}
+.slider1
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.slide-track1
+{
+    height: 350px;
+    display: flex;
+    width: calc(250px * 18);
+    animation: move 20s linear infinite;
+}
+@keyframes move
+{
+    0%
+    {
+        transform: translate(0);
+    }
+    100%
+    {
+        transform: translate(calc(-250px * 22));
+    }
+}
+.image1
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+.image1 img
+{
+    transition: transform 0.6s;
+    border-radius: 15px;
+}
+.image1 :hover
+{
+    transform: scale(1.07);
+    border-radius: 15px;
+}
+.bottom-left13
+{
+    position: absolute;
+    bottom: 70px;
+    left: 160px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left14
+{
+    position: absolute;
+    bottom: 70px;
+    left: 160px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left15
+{
+    position: absolute;
+    bottom: 70px;
+    left: 140px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left16
+{
+    position: absolute;
+    bottom: 70px;
+    left: 180px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left17
+{
+    position: absolute;
+    bottom: 70px;
+    left: 160px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left18
+{
+    position: absolute;
+    bottom: 70px;
+    left: 170px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left19
+{
+    position: absolute;
+    bottom: 70px;
+    left: 180px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left20
+{
+    position: absolute;
+    bottom: 70px;
+    left: 175px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left21
+{
+    position: absolute;
+    bottom: 70px;
+    left: 180px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left22
+{
+    position: absolute;
+    bottom: 70px;
+    left: 160px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left23
+{
+    position: absolute;
+    bottom: 70px;
+    left: 150px;
+    color: white;
+    font-size: 20px;
+}
+.bottom-left24
+{
+    position: absolute;
+    bottom: 70px;
+    left: 140px;
+    color: white;
+    font-size: 20px;
+}
+#gallary1
+{
+    margin-left: 0px;
+    margin-bottom: 280px;
+    font-family: 'Kablammo';
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -320px;
+}
+#temple
+{
+    margin-left: 590px;
+    margin-top: -10px;
+    margin-bottom: 100px;
+    opacity: 0.2;
+}
+.row1
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -420px;
+    overflow: hidden;
+}
+.column1
+{
+    overflow: hidden;
+    position: relative;
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.column1 img
+{
+    overflow: hidden;
+    border-radius: 10%;
+    padding: 8px;
+    transition: all 0.3s linear;
+    margin-right: -10px;
+}
+.column1 :hover
+{
+    transform: scale(1.1);
+}
+#xxv
+{
+    margin-top: -466px;
+}
+.bottom-left
+{
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+}
+.centered
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
